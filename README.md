@@ -18,7 +18,7 @@ Go through the structure of the project and figure out how you would proceed.
 
 ***User Flow***
 
-User Lands on the first view where no classRoom is selected ![alt text](./src/images/Langing.png)
+User Lands on the first view where no classRoom is selected ![landing](./src/images/Landing.png)
 
 
 
