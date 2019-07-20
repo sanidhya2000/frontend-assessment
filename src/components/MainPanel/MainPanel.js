@@ -10,6 +10,7 @@ export default class MainPanel extends React.Component {
   render() {
     return (
       <div className="mainPanel">
+        <h1> MainPanel </h1>
         {/*
 
 

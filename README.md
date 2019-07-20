@@ -4,7 +4,7 @@
 
 This project consists of a main folder `src` which contains all the project files. `images` folder inside `src` contains the view of the page that is expected.
 
-There are three components `layout`, `SidePanel` and `MainPanel` where you have to write all the logic.
+There are three components `Layout`, `SidePanel` and `MainPanel` where you have to write all the logic.
 
 ***Your Assignment***
 

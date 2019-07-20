@@ -10,6 +10,7 @@ export default class SidePanel extends React.Component {
   render() {
     return (
       <div className="sidePanel">
+        <h1> SidePanel </h1>
         {/*
 
 

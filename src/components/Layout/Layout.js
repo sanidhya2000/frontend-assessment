@@ -12,6 +12,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div className="layout">
+        <h1> Layout </h1>
         <SidePanel />
         <MainPanel />
       </div>
