@@ -28,6 +28,43 @@ Go through the structure of the project and figure out how you would proceed.
 3. Clicking on a 'Show Average' can see the Average of marks of all students in that class
 ![ShowingClassroomAverage](./src/images/ShowingClassroomAverage.png)
 
+## Data
+
+```json
+  [
+    {
+      "classname": "Class I",
+      "students": [
+        {
+          "name": "student 1",
+          "marks": {
+            "Maths": 35,
+            "Science": 64,
+            "English": 42
+          }
+        },
+        {
+          "name": "student 2",
+          "marks": {
+            "Maths": 20,
+            "Science": 100,
+            "English": 62
+          }
+        },
+        {
+          "name": "student 3",
+          "marks": {
+            "Maths": 60,
+            "Science": 90,
+            "English": 62
+          }
+        }
+      ]
+    }
+    ...
+  ]
+```
+
 
 ## Available Scripts
 
