@@ -2,6 +2,7 @@ import React from 'react';
 
 import MainPanel from '../MainPanel/MainPanel';
 import SidePanel from '../SidePanel/SidePanel';
+
 import "./Layout.css";
 
 export default class Layout extends React.Component {
@@ -12,9 +13,8 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div className="layout">
-        <h1> Layout </h1>
-        <SidePanel />
-        <MainPanel />
+        <SidePanel classes={this.props.classes} onClassSelect={this.props.onClassSelect}/>
+        <MainPanel studentLists={this.props.studentLists} classSelected={this.props.classSelected}/>
       </div>
     );
   }

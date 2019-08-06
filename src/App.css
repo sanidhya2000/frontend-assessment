@@ -1,3 +1,7 @@
 .hello-world {
   display: none;
 }
+
+.App{
+  height: 100%;
+}
