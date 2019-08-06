@@ -23,7 +23,7 @@ export default class MainPanel extends React.Component {
         {students}
         </div>
         :
-        <h1 className="tc">NO CONTENT</h1>}
+        <h1 className="tc con">SELECT A CLASS</h1>}
        
       </div>
     );
